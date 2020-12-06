@@ -2,7 +2,7 @@
 
 Et si au lieu de conserver nos étiquettes et que ça gratte ou au lieu de les couper et perdre des informations, on reportait les recommendations d'entretien dans une application ?
 
-Buandier est un projet qui est né en live devant un petit public dans le cadre du premier épisode de l'émission [Sunday Morning](https://youtu.be/h2QIono0Cm0) sur la chaine YouTube [⌜.+⌟PointPlus](https://www.youtube.com/channel/UCPgpGGsjySR2mHPTJ2qbRNw/).
+Buandier est un projet qui est né en live devant un petit public dans le cadre du premier épisode de l'émission [Sunday Morning](https://www.youtube.com/playlist?list=PLJi-xjg3DqYbyXWzJnzNOmpZpnPjNwjl3) sur la chaine YouTube [⌜.+⌟PointPlus](https://www.youtube.com/PointPlus).
 
 Merci à tous les participants, merci pour les encouragements !
 
@@ -42,8 +42,24 @@ Pour vous connecter, trouvez un nom d'utilisateur en BDD. Tous les mots de passe
 
 ⚠️ Les fixtures sont incomplètes, pour une raison non trouvée dans le live, il est possible de relier les Group aux Cloth 🤷‍♂
 
+## Résumé de l'épisode 1
+
+🎬 https://youtu.be/h2QIono0Cm0
+
+- Installation de Symfony 5.1
+- Installation d'EasyAdmin
+- Création des entités, des migrations puis des fixtures
+- Configuration basique d'EasyAdmin
+- Ajout de la connexion et sécurisation de l'admin
+
+## Résumé de l'épisode 2
+
+🎬 https://youtu.be/Qt4NvpWQgqk
+
+- Création d'un field puis d'un type puis supression d'un CustomField pour EasyAdmin qui permette de relier les pictures dès la création d'un vêtement en BDD
+
 ## La suite !
 
-À cette date (8 novembre 2020), rien n'est décidé sur la suite. Le sujet de l'émission suivante n'est pas déterminé, peut-être qu'on terminera ce projet… ou pas !
+À cette date (6 décembre 2020), rien n'est décidé sur la suite. Le sujet de l'émission suivante n'est pas déterminé, peut-être qu'on terminera ce projet… ou pas !
 
 En attendant vous pouvez créer des issues et de pull requests pour intervenir sur le code.
