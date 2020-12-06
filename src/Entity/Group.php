@@ -66,6 +66,11 @@ class Group
         return $this->clothes;
     }
 
+    public function addClothe(Clothe $clothe): self
+    {
+        return $this->addClothes($clothe);
+    }
+
     public function addClothes(Clothe $clothes): self
     {
         if (!$this->clothes->contains($clothes)) {
@@ -73,6 +78,11 @@ class Group
         }
 
         return $this;
+    }
+
+    public function removeClothe(Clothe $clothe): self
+    {
+        return $this->removeClothes($clothe);
     }
 
     public function removeClothes(Clothe $clothes): self
