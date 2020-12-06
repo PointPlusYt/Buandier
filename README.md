@@ -37,6 +37,7 @@ Après avoir cloné ce dépôt
 - Créer un fichier .env.local et configurer la base de données
 - `bin/console d:m:m`
 - `bin/console d:f:l`
+
 Pour vous connecter, trouvez un nom d'utilisateur en BDD. Tous les mots de passe sont «buandier».
 
 ⚠️ Les fixtures sont incomplètes, pour une raison non trouvée dans le live, il est possible de relier les Group aux Cloth 🤷‍♂

@@ -28,6 +28,11 @@ class Picture
      */
     private $clothe;
 
+    public function __toString()
+    {
+        return '<img src="' . $this->image . '">';
+    }
+
     public function getId(): ?int
     {
         return $this->id;

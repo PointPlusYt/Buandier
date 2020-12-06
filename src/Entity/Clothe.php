@@ -45,7 +45,7 @@ class Clothe
     private $recommendations;
 
     /**
-     * @ORM\OneToMany(targetEntity=Picture::class, mappedBy="clothe", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity=Picture::class, mappedBy="clothe", orphanRemoval=true, cascade={"persist"})
      */
     private $pictures;
 
